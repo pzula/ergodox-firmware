@@ -25,10 +25,10 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 0,
 // left hand
-    _equal,     _1,         _2,      _3,      _4,    _5,    2,
+    _equal,     _1,         _2,      _3,      _4,    _5,    0,
       _tab,     _Q,         _W,      _J,      _R,    _T, _esc,
     _ctrlL,     _A,         _S,      _D,      _F,    _G,
-   _shiftL,     _Z,         _X,      _C,      _V,    _B, _tab,
+   _shiftL,     _Z,         _X,      _C,      _V,    _B,    0,
          1,  _ctrlL,      _altL,  _guiL,       1,
                                                  _ctrlL, _altL,
                                           _guiL,      0, _home,
